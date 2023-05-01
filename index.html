@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0;">
+    <title>Data Visualization</title>
+    <link rel="icon" type="image/png" href="chart-icon-color.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+</head>
+<body>
+
+    
+    
+    <h3 style="text-align:center" class="row mw-100"><strong>Migrant Motivations</strong></h3>
+    <h5 style=" text-align:center; padding-left: 3em; padding-right: 3em" class="row mw-100"><em>There are many motivations which push potential migrants to flee their country. <br><strong>Click on a category and hover over the element to see the percentage of each driver.</strong></em></h5>
+
+
+    <div style="padding: 1em" class="buttons text-center row">
+        <button id="everyone" class="btn btn-light">Entire Central America</button>
+
+        <button id="honduras" class="btn btn-light ">Honduras</button>
+        <button id="elSalvador" class="btn btn-light ">El Salvador</button>
+        <button id="Guatamela" class="btn btn-light  ">Guatamela</button>
+    </div>
+
+
+    <div class="row mw-100">
+        <div id="donut" class="col-12"></div>
+    </div>
+    
+    
+
+
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="donut.js"></script>
+
+</body>
+</html>
